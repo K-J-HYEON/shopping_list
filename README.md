@@ -21,6 +21,7 @@
 ##### 성공
 
 ![success](https://user-images.githubusercontent.com/77037051/125635379-80b6d98c-47a7-41e6-b2fe-560ba70d1837.png)
+<img width="80%" src="https://user-images.githubusercontent.com/77037051/125639147-6c254119-923b-4adb-8095-c8d53ff991b6.gif"/>
 
 ## 수정한 부분
 
