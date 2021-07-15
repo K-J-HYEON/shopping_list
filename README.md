@@ -14,7 +14,7 @@
 
 #### 화면 구성
 
-##### 실패
+##### 실패(button부분의 위치가 이상하다.)
 
 ![fail](https://user-images.githubusercontent.com/77037051/125635387-5e08ece6-6232-4940-a9dc-f2289c07df61.png)
 
