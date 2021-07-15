@@ -28,24 +28,24 @@
 2. 그리고 JS에서 const item = createItem(text); createItem()에 text를 안넣었더니 입력값 마다 undefined가 나왔다.
 
 
-### main__renew에는 
-#### item_rowtemRow.innerHTML = `
-####        <div class="item">
-####            <span class="item__name">${text}</span>
-####            <button class="item__delete">
-####                <i class="fas fa-trash-alt" data-id=${id}><i>
-####            </button>
-####            </div>
-####            <div class="item__divider"></div>`;
-#### items.addEventListener('click', event => {
+#### main__renew에는 
+##### item_rowtemRow.innerHTML = `
+#####        <div class="item">
+#####            <span class="item__name">${text}</span>
+#####            <button class="item__delete">
+#####                <i class="fas fa-trash-alt" data-id=${id}><i>
+#####            </button>
+#####            </div>
+#####            <div class="item__divider"></div>`;
+##### items.addEventListener('click', event => {
 
 
-#### items.addEventListener('click', event => {
-#### const id = event.target.dataset.id;
-####    if (id) {
-####        const toBeDeleted = document.querySelector(`.item__row[data-id="${id}"]`);
-####        toBeDeleted.remove();
-####    }
-#### }); 
-### 이렇게 구현을 해주었다.
+##### items.addEventListener('click', event => {
+##### const id = event.target.dataset.id;
+#####    if (id) {
+#####        const toBeDeleted = document.querySelector(`.item__row[data-id="${id}"]`);
+#####        toBeDeleted.remove();
+#####    }
+##### }); 
+#### 이렇게 구현을 해주었다.
 
