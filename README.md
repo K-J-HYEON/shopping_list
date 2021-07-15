@@ -30,6 +30,7 @@
 
 #### main__renew에는 
 
+##### itemRow.setAttribute('data-id', id);
 ##### item_rowtemRow.innerHTML = `
 #####        <div class="item">
 #####            <span class="item__name">${text}</span>
@@ -38,7 +39,7 @@
 #####            </button>
 #####            </div>
 #####            <div class="item__divider"></div>`;
-##### items.addEventListener('click', event => {
+#####     id++;
 
 
 ##### items.addEventListener('click', event => {
