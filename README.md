@@ -29,6 +29,7 @@
 
 
 #### main__renew에는 
+
 ##### item_rowtemRow.innerHTML = `
 #####        <div class="item">
 #####            <span class="item__name">${text}</span>
@@ -47,5 +48,6 @@
 #####        toBeDeleted.remove();
 #####    }
 ##### }); 
+
 #### 이렇게 구현을 해주었다.
 
