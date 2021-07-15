@@ -18,7 +18,7 @@ function onAdd() {
     const text = input.value;
 
     // 만약에 텍스트가 텅텅 비어져 있으면 포커스 주고 나간다.
-    if(text == ''){
+    if (text == '') {
         input.focus();
         return;
     }
@@ -28,7 +28,7 @@ function onAdd() {
     items.appendChild(item);
 
     // 4. 새로 추가된 아이템으로 스크롤링 블럭이 항상 중간에 올 수 있도록
-    item.scrollIntoView({block: 'center'});
+    item.scrollIntoView({ block: 'center' });
     // 5. 인풋을 초기화 한다.(사용자가 플러스 누르면 포커스가 들어오도록)
     // 인풋의 벨류를 텅텅 비어진 값으로 만든다.
     input.value = ''
@@ -55,7 +55,7 @@ function createItem(text) {
     // 버튼안에 i태그(html파일에서 확인)
     deleteBtn.innerHTML = '<i class="fas fa-trash-alt"></i>';
     // delete에 addEventListener을 등록할 건데 클릭이 되면
-    deleteBtn.addEventListener('click', ()=> {
+    deleteBtn.addEventListener('click', () => {
         items.removeChild(itemRow);
     })
 
@@ -65,7 +65,7 @@ function createItem(text) {
 
     // item에 span과 delete버튼을 넣어줘야한다.
 
-    
+
     item.appendChild(name);
     item.appendChild(deleteBtn);
 
@@ -77,7 +77,7 @@ function createItem(text) {
 
 // 클릭이 되면 등록한 콜백 함수를 호출
 // 클릭이 되면 사용자가 onAdd() 함수를 호출한다.
-addBtn.addEventListener('click', ()=> {
+addBtn.addEventListener('click', () => {
     onAdd();
 });
 
@@ -85,7 +85,7 @@ addBtn.addEventListener('click', ()=> {
 
 // 키가 눌러지면 콜백함수 이용 콘솔창에 key 횟수 입력
 input.addEventListener('keypress', event => {
-    if(event.key === 'Enter') {
+    if (event.key === 'Enter') {
         onAdd();
     }
 
