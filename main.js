@@ -43,6 +43,8 @@ function createItem(text) {
     const itemRow = document.createElement('li');
     itemRow.setAttribute('class', 'item__row');
 
+
+    // main__renew.js에서 여기부터는 삭제하고 다른 거 추가함
     const item = document.createElement('div');
     item.setAttribute('class', 'item');
 
@@ -71,8 +73,9 @@ function createItem(text) {
 
     itemRow.appendChild(item);
     itemRow.appendChild(itemDivider);
-    // 최종적으로 만든 itemRow를 리턴
+
     return itemRow;
+    // 여기까지 main__renew.js 삭제하고 다른거 추가함
 }
 
 // 클릭이 되면 등록한 콜백 함수를 호출
