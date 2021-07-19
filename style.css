@@ -58,12 +58,14 @@ body {
   overflow-y: auto;
 }
 
+
+
 .item {
   display: flex;
   justify-content: space-between;
   /* 위아래로는 8px 양옆으로는 32px */
   padding: 8px 32px;
-}
+} 
 
 .item__delete {
   font-size: 16px;
@@ -109,6 +111,7 @@ body {
 }
 
 /* 꼬였다. 버튼 위치 이상함  */
+/* 고쳤다 */
 .footer__button {
   width: 48px;
   height: 48px;
