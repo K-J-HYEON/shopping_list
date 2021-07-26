@@ -13,6 +13,10 @@ const addBtn = document.querySelector('.footer__button');
 // onAdd()함수 안에서 로직을 쉽게 작성 하기 위해
 // 순서대로 주석을 먼저 작성한 다음에
 // 각 주석에 맞춰서 코드를 작성했다.
+/* 주석쓸때 한 즐씩 쓰지말고 이 함수는 무엇인지 어떤의도로 만들었는지
+어떻게 사용하는 것이 바람직한지 왜 사용해야 하는지 왜 이런방식으로 작성했는지
+'왜'를 설명해야 한다.*/
+
 function onAdd() {
     // 1. 사용자가 입력한 텍스트를 받아온다.
     const text = input.value;

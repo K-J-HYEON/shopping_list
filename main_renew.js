@@ -15,7 +15,7 @@ function onAdd() {
     input.focus();
 }
 
-let id = 0; // UUID(유니크아이디) 숫자를 계속해서 증가하는것은 나쁘긴 하지만 지금은 간단한 쇼핑리스트 만드는거라서 상관없다.
+let id = 0; // UUID(유니크아이디) /  숫자를 계속해서 증가하는것은 나쁘긴 하지만 지금은 간단한 쇼핑리스트 만드는거라서 상관없다.
 function createItem(text) {
     const itemRow = document.createElement('li');
     itemRow.setAttribute('class', 'item__row');
