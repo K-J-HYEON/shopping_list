@@ -3,23 +3,18 @@
 #### shopping_list를 구현해보았다.(스스로도 만들어보자.)
 
 ## 만든시간
-
 #### 21/7/14 2시간 30분정도
 
 ## skills
-
 #### HTML, CSS, JavaScript
 
 ## 스크린샷
-
 #### 화면 구성
 
 ##### 실패(button부분과 input 위치가 이상하다.)
-
 ![fail](https://user-images.githubusercontent.com/77037051/125635387-5e08ece6-6232-4940-a9dc-f2289c07df61.png)
 
 ##### 성공
-
 ![success](https://user-images.githubusercontent.com/77037051/125635379-80b6d98c-47a7-41e6-b2fe-560ba70d1837.png)
 <img width="80%" src="https://user-images.githubusercontent.com/77037051/125639147-6c254119-923b-4adb-8095-c8d53ff991b6.gif"/>
 
@@ -29,7 +24,6 @@
 
 
 ### main__renew에는 
-
 #### itemRow.setAttribute('data-id', id);
 #### item_rowtemRow.innerHTML = `
 ####        <div class="item">
